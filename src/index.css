@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Livvic";
+}
+
+@layer components {
+  .inputClass {
+    @apply text-start pr-64 h-12 bg-transparent border-b-2 border-gray-400;
+  }
+}
